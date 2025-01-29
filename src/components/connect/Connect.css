@@ -1,0 +1,17 @@
+.hover:hover{
+    border-bottom: 1px solid gray;
+}
+@media (max-width:800px){
+    .connect{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .connect__title{
+        width: 100%;
+    }
+    .connect__box{
+        width: 100%;
+    }
+    
+}

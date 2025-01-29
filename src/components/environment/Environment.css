@@ -1,0 +1,15 @@
+/* .environment__box{
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+} */
+ .environment__box{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+ }
+ @media(max-width:900px){
+    .environment__box{
+        display: grid;
+        grid-template-rows: repeat(2,1fr);
+    }
+ }

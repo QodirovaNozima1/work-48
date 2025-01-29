@@ -1,0 +1,12 @@
+@media (max-width:600px){
+    .info__title{
+        display: flex;
+        flex-direction: column;
+    }
+    .info__title h2{
+        width: 100%;
+    }
+    .info__desc{
+        width: 100%;
+    }
+}
